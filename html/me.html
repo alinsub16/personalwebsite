@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="me.css">
+    
+    <script src="https://kit.fontawesome.com/2cf48ea68b.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home"><h4 class="Logo"><span class="spanlogo">CA</span>.dev</h4></a>
+            <ul class="nav-ul hide">
+                <li class="nav-li"><a class="nav-a active" href="#home">Home</a></li>
+                <li class="nav-li"><a class="nav-a" href="#about">About</a></li>
+                <li class="nav-li"><a class="nav-a" href="#skills">Skills</a></li>
+                <li class="nav-li"><a class="nav-a" href="#contact">Contact</a></li>
+            </ul>
+            <div id="iconTriger" class="icon-contair hide-desktop">
+                <i id="icon" class="fa fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="first">
+        <div class="container">
+            <div class="inside">
+                <div class="name">
+                    <h3 class="hi">Hi It's <span class="spanh3">me</span></h3>
+                    <h1 class="fname">Christopher <span class="lname">Alinsub</span></h1><br>
+                    <h2 class="Aspiring">Aspiring front end web <span class="spanh2">developer</span></h2>
+                    <div class="accounts-container">
+                        <div class="Accounts-Icon">
+                            <a href="https://web.facebook.com/christopher.alinsub" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.tiktok.com/@topher_016?_t=8dckJZRhYiP&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="https://www.linkedin.com/in/christopher-alinsub-08959927b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <i class="fa-light fa-arrow-up-to-line"></i>
+                        </div>
+                        <div class="button-container"> 
+                            <a id="download-file" href="/resumefile/Latest-Resume[1].docx" download><i class="fa-sharp fa-solid fa-download"></i>Resume</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="picture">
+                    <img class="image" src="/images/top.png" alt="error" >
+                </div>
+            </div>
+            <div class="accounts">
+                
+            </div>
+        </div>
+    </section> 
+    <section id="about" class="about hidden">
+        <div class="aboutcontainer ">
+            <h1 class="abouth1">About me</h1>
+            <div class="me-pic hide1">
+                
+            </div>
+            <div class="aboutp" data-aos="fade-right">
+                <p class="aboutme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe omnis enim eligendi aliquid ipsa ipsum, dolores voluptates voluptas necessitatibus quasi, aut officiis magni.</p>
+            </div>
+        </div>
+    </section>   
+    <section id="skills" class="skills hidden">
+        <div class="skillcontainer">
+            <div class="experience">
+                <div class="h1container">
+                    <h1 class="exph1">Experience</h1>
+                </div>
+                <div class="interncontainer" data-aos="fade-down-right">
+                    <h1 class="h1intern h">-Intern</h1>
+                    <h3 class="h3company h">Company: Yumezoe Internatinal Inc.</h3>
+                    <h3 class="h3position h">Position: Cutomer Service</h3>
+                    <h5><span class="gmailspan ">gmail: </span> Yumezoe.generalmanager@gmail.com</h5>            
+                </div>                  
+            </div>
+            <div class="mid">
+
+            </div>
+            <div class="skillset">
+                <div class="h1container">
+                    <h1 class="seth1">Skills</h1>
+                </div>
+                <div class="skillscontainer">
+                    <h4 class="skills-h2"><i class="fa-brands fa-css3-alt fa-bounce"></i>Css3 <progress class="prog-css" value="60" max="100">60%</progress></h4>
+                    <h4 class="skills-h2"><i class="fa-brands fa-html5 fa-fade"></i> Html5 <progress class="prog-html" value="70" max="100">60%</progress></h4>
+                    <h4 class="skills-h2 js"><i class="fa-brands fa-js fa-beat"></i> JavaScrit<progress class="prog-js" value="40" max="100">60%</progress></h4>
+                    <h4 class="skills-h2"><i class="fa-brands fa-python fa-spin"></i> Python <progress class="prog-python" value="60" max="100">60%</progress></h4>
+                    <h4 class="skills-h2"><i class="fa-brands fa-java fa-beat-fade"></i></i> Java <progress class="prog-java" value="40" max="100">60%</progress></h4>
+                    <h4 class="skills-h2"><i class="fa-solid fa-database fa-shake"></i> Mysql <progress class="prog-sql" value="40" max="100">60%</progress></h4>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="contact" class="Contact hidden">
+        <div class="form-container">
+            <form onsubmit="Submit(); reset(); return false;">
+                <h2 class="h2-Message">Message me</h2>
+                <input id="fname" class="Name" name="Name" placeholder="Enter your name" type="text">
+                <br>
+                <input id="Gmail" class="Email" name="Email" placeholder="Enter Email Address" type="text">
+                <br>
+                <textarea id="MAIL" name="" placeholder="Enter something" rows="4"></textarea>
+                <br>
+                <button class="Submit" type="submit">Send</button>
+            </form>
+        </div>
+
+    </section >
+    <footer >
+        <div class="footer-container">
+            <div class="second-footer-contaier">
+                <h2 >Follow me in my accounts</h2>
+            </div>
+            <div class="third-footer-container">
+                <a href="https://web.facebook.com/christopher.alinsub" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@topher_016?_t=8dckJZRhYiP&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class="last-footer-container">
+                <h4>Developed by: TOPHER</h4>
+                <p>2023</p>
+
+            </div>
+            
+         </div>     
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>   
+    <script defer src="me.js" >
+      
+    </script>  
+    <script src="bower_components/aos/dist/aos.js"></script>
+   
+</body>
+</html>

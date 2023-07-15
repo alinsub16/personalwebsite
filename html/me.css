@@ -1,0 +1,1266 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+} 
+body{
+    background-color:#081b29;
+    font-family: sans-serif ;
+}
+.first{
+    height: 100vh;
+    
+
+}
+header nav{
+    position: fixed;
+    ;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.spanlogo{
+    color:#ededed;
+    padding-left: 3px;    
+}
+.Logo{
+    font-size: 30px;
+    color: #00abf0;   
+    padding: 5px;
+}
+.icon-contair{
+    display: none;
+}
+
+.nav-ul{
+    display: flex;
+    margin: 15px;
+    list-style-type: none; 
+}
+.nav-li{
+    padding-inline: 50px;
+    
+    
+    
+}
+/*hover effect a tag*/
+.nav-a:hover{
+    background-color:#00abf0;
+    border-radius: 2px;
+    display: block;
+    border:1px double #ededed;
+    
+}
+a{
+    text-decoration: none;
+}
+.nav-a{
+    text-decoration: none;
+    color: #ededed;
+    transition: .3s;
+}
+.inside{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px;
+    
+}
+.name{
+    position: relative;
+    display: grid;
+    align-content: center;
+    height: 300px;
+    top: 120px;     
+    row-gap: 10px;
+}
+.fname,.hi, .Aspiring{
+    position: relative;
+}
+.fname{
+    top: 10px;
+    font-size: 50px;
+    
+    color: #ededed;
+}
+.lname,.spanh3,.spanh2
+ {
+    color: #00abf0;
+}
+.hi{
+    font-size: 25px;
+    color: #ededed;
+}
+
+.Aspiring{
+    position: relative;
+    color: #ededed;
+    display: block;
+    
+}
+.Accounts-Icon{
+    position: relative;
+    display: flex;
+    gap: 22px;
+    height: 60px;
+    width: 450px;
+    top: 15px;
+    justify-content: flex-start;
+}
+.Accounts-Icon a{
+    display: block;
+    height: 32px;
+}
+.button-container .fa-download{
+    font-size: 1.5rem;
+    color: #00abf0;
+    padding-right: 2px;
+}
+
+.button-container a{
+    color:#ededed;
+    
+}
+.button-container button:hover{
+    background-color: #00abf0;
+    animation: normal;
+    color: #ededed;
+    border: double #00abf0;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #112e42,
+                -5px -5px 10px #526D82;;
+}
+.picture{
+    position: relative;
+    height: 300px;
+    width: 400px;
+    background-color:#00abf0;
+    display: flex;
+    top: 130px;
+    border-radius: 99% 1% 100% 0% / 29% 76% 24% 71% ; 
+    
+}
+.picture:hover{
+    transition-duration: 2s;
+    background-color: #0A6EBD;
+    transition-property:background-color,transform ,border-radius;
+    transition-duration: 2s,3s;
+    border-radius: 94% 6% 94% 6% / 6% 93% 7% 94% ;
+    
+}
+.image:hover{
+    transform: scale(2rem);
+    filter: blur(0);
+    transition: 2s;
+    
+}
+.image{ 
+    position: relative;
+    bottom: 150px;
+    padding-left: 10px;
+    height:450px;
+    width:400px;
+    filter:blur(1.5px);
+    
+    
+   
+}
+.about{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    justify-content: center; 
+}
+.aboutcontainer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 40px;
+    padding-top: 50px;
+    border-radius: 20px;
+    background-color: #112e42;
+    height: 540px;
+    width: 900px;
+    box-shadow: 15px 15px 30px #27374D,
+                -15px -15px 30px #526D82;;
+
+
+}
+.abouth1{
+    position:absolute;
+    top: 0px;
+    font-size: 30px;
+    color: #00abf0;
+}
+.me-pic{
+    position: relative;
+    height: 400px;
+    width: 350px;
+    top: 40px;
+    background-image: url(/images/topher.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 75% 25% 65% 35% / 23% 73% 27% 77% ;
+    
+    
+
+}
+.aboutp{
+    position: relative;
+    height: 400px;
+    width: 350px;
+    top: 40px;
+    border-radius: 30px;
+    background-color:#081b29;
+    box-shadow: 15px 15px 30px #27374D,
+    -10px -10px 25px #526D82;;
+}
+.aboutme{
+    color: #00abf0;
+}
+.skills{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.skillcontainer{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    background-color: #112e42;
+    height: 540px;
+    width: 900px;
+    border-radius: 20px;    
+    top: 50px;
+    padding-top: 40px;
+    box-shadow: #526D82 0px 10px 45px -16px inset,
+                #27374D 0px 18px 26px -18px inset;
+
+}
+.experience{
+    position: relative;
+    display: flex;
+    height: 440px;
+    width: 300px;
+    left: 30px;
+    
+    
+
+}
+.experience .h1container{
+    position:absolute;
+    width: 140px;
+    height: 40px;
+    background-color: #081b29;
+    text-align: center;
+    left: 70px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px #27374D,
+                -5px -5px 5px #526D82;;
+
+}
+.interncontainer{
+    position: relative;
+    display: grid;
+    row-gap: 30px;
+    height: 200px;
+    top: 50px;
+    align-items: center;
+    
+}
+.exph1{
+    margin: 6px;
+    color: #00abf0;    
+}
+.h1intern{
+    display: inline-block;
+    color: #ededed;
+    border-top-style:double;
+    border-bottom-style:solid ;
+    border-color:#081b29;
+}
+.h3company, .h3position, h5{
+    
+    position: relative;
+    bottom: 27px;
+
+}
+.h3company{
+    border-bottom-style: groove;
+    color: #ededed;
+    border-color: #081b29;
+    border-width: 4px;
+}
+.h3position{
+    bottom: 42px;
+    border-bottom-style: groove;
+    color: #ededed;
+    border-color: #081b29;
+    border-width: 4px;
+}
+h5{
+    bottom: 62px;
+    border-bottom-style:  groove ;
+    color: #ededed;
+    border-color: #081b29;
+    border-width: 4px;
+}
+
+.gmailspan{
+    font-size: 20px;
+}
+
+.mid{
+    position: relative;
+    display: flex;
+    background-color:#00abf0;
+    height: 460px;
+    width: 5px;
+    border-radius: 2px;
+    box-shadow: 15px 15px 30px #27374D,
+                -10px -10px 25px #526D82;;
+}
+.skillset{
+    display: grid;
+    position: relative;
+    height: 440px;
+    width: 310px;
+    right: 30px;
+    
+    
+   
+}
+.h1container{
+    position:absolute;
+    width: 90px;
+    height: 40px;
+    background-color: #081b29;
+    text-align: center;
+    left: 100px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px #27374D,
+                -5px -5px 5px #526D82;;
+    
+    
+}
+.seth1{
+    margin: 6px;
+    color: #00abf0;
+}
+.skillscontainer{
+    display: grid;
+    row-gap: 20px;
+    position: relative;
+    top: 60px;
+    height: 200px;
+}
+
+.fa-css3-alt{
+    color: #0A6EBD;
+    font-size: 40px;
+    padding-right: 10px;
+}
+.fa-css3-alt:hover{
+    animation: none;
+}
+.fa-html5{
+    color: #F94A29;
+   font-size: 40px; 
+   padding-right: 10px;
+}
+.fa-html5:hover{
+    animation: none;
+}
+.fa-js{
+    color: #F9D949;
+    font-size: 32px;
+    padding-right: 16px;
+}
+.fa-js:hover{
+    animation: none;
+}
+.fa-python{
+    font-size: 40px;
+    color: #00abf0;
+    padding-right: 10px;
+    
+}
+.fa-python:hover{
+    animation: none;
+}
+.fa-java{
+    font-size: 40px;
+    color:#1B6B93;
+    padding-right: 9px;
+}
+.fa-java:hover{
+    animation: none;
+}
+.fa-database{
+    font-size: 40px;
+    color: #00abf0;
+    padding-right: 9px;
+}
+.fa-database:hover{
+    animation: none;
+    
+}
+.skills-h2{
+    color: #ededed;
+    padding-left: 30px;
+    
+}
+.prog-css{
+    position: relative;
+    left: 50px;
+    accent-color: #00abf0;
+}
+.prog-html{
+    position: relative;
+    left: 35px;
+    accent-color: #00abf0;
+}
+.prog-js{
+    position: relative;
+    accent-color: #00abf0;
+    left: 10px;
+}
+.prog-python{
+    position: relative;
+    left: 27px;
+    accent-color: #00abf0;
+}
+.prog-java{
+    position: relative;
+    left: 50px;
+    accent-color: #00abf0;
+}
+.prog-sql{
+    position: relative;
+    left: 35px;
+    accent-color: #00abf0;
+}
+
+  .Contact{
+    height: 100vh;
+    position:relative;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .form-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 480px;
+    margin-top: 60px;
+    border: 2px solid #00abf0;
+    border-radius: 20px;
+  }
+  form{
+    position: relative;
+    height: 430px;
+    width: 380px;
+    border-radius: 20px;
+    background-color: #112e42;
+    justify-content: center;
+  }
+ 
+  .h2-Message{
+    text-align: center;
+    color: #00abf0;
+  }
+  .Name, .Email, textarea,.Submit{
+    position: relative;
+    display: grid;
+    place-self: center;
+    left: 40px;
+    padding: 0.2rem;
+    border-radius: 10px;
+    top:70px ;
+  }
+  .Name, .Email{
+    height: 50px;
+  }
+  .Name, .Email, textarea{
+    width: 300px;
+  }
+  .Submit{
+    
+    left: 160px;
+    width: 70px;
+    height: 35px;
+    padding: 0.4rem;  
+    color: #00abf0;
+  }
+  .Submit:hover{
+    background-color: #00abf0;
+    animation: normal;
+    color: #ededed;
+    border: double #00abf0;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #081b29,
+                -5px -5px 5px #526D82;;
+  }
+  form:hover{
+    box-shadow: 20px 20px 30px #001C30,
+                -10px -10px 30px #526D82;;
+                
+  }
+  footer{
+    
+    background-color: black;
+  }
+footer div h2{
+    color: #ededed;
+}
+
+.fa-facebook{
+    color: #00abf0;
+    font-size: 1.5rem;
+   
+    
+   
+}
+.fa-tiktok{
+    color:#00abf0;
+    font-size: 1.5rem; 
+
+   
+}
+.fa-linkedin{
+    color:#00abf0;
+    font-size: 1.5rem; 
+        
+    
+    
+}
+.fa-bars{
+    color:black;
+        
+}
+.fa-facebook:hover{
+    filter: drop-shadow(0 0 1rem #ff0000);
+    cursor: pointer;
+    color: red;
+}
+.fa-tiktok:hover{
+    filter: drop-shadow(0 0 1rem #ff0000);
+    cursor: pointer;
+    color: red;
+}
+.fa-linkedin:hover{
+    filter: drop-shadow(0 0 1rem #ff0000);
+    cursor: pointer;
+    color: red;
+}
+.footer-container{
+    
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    row-gap: 10px;
+    
+    
+} 
+.secon-footer-container, .third-footer-container{
+    position: relative;
+}
+.third-footer-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.last-footer-container{
+    color: #ededed;
+    text-align: center;
+}
+/*Hover effects*/
+
+/*animation*/
+.Aspiring{
+    width: 85%;
+    border-right: 2px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 6s steps(33) infinite,
+                cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{
+        border-color: transparent;
+    }
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+.button-container .fa-download:hover{
+    animation-name: down-up;
+    animation: infinite ease;
+    animation-duration: 1s;
+    color: red;
+
+}
+@keyframes down-up{
+    0%{
+       transform: translatey(200px); 
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.name{
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+
+}
+@keyframes slide{
+    0%{
+        transform:translatex(-600px);
+        
+    }
+   
+    100%{
+        transform: translate(0);
+        
+    }
+
+}
+.picture{
+    animation-name: picture-div;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+}
+@keyframes picture-div{
+    0%{
+        transform: translatex(600px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+.image{
+    animation-name: image;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+}
+@keyframes image{
+    0%{
+        transform: scale(100%);
+       
+    }
+    50%{
+        transform:scale(120%);
+        
+    }
+    100%{
+        transform: scale(100%);
+    }
+}
+.hidden{
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-600px);
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.aboutcontainer{
+    
+    transition-delay: 2s;
+}
+/*Responsive*/
+@media only screen and (max-width: 992px) and (min-width: 769px){
+    body{
+        background-color: #081b29;
+    }
+    .container nav{
+        background: black;
+        width: 100%;
+    }
+    .nav-ul{
+        padding-right: unset;
+        padding-left: unset;
+    }
+    .icon-contair{
+        display: none;
+    }
+    .name{
+        top: 40px;
+        height: 350px;
+        display: grid;
+         
+    }
+    .picture{
+        top: 40px;
+    }
+    .image{
+        top: unset;
+        bottom:50px;
+        height:350px;
+        width:300px;
+    }
+    .hi{
+        font-size: 30px;
+    }
+    .Aspiring{
+        font-size: 25px;
+        
+        width: 94%;
+    }
+    .fname{
+        font-size: 45px;
+    }
+    .Accounts-Icon{
+        justify-content: flex-start;
+        bottom: 40px;
+        gap: 40px;
+    }
+    .aboutcontainer {
+        height: 480px;
+        width: 750px;
+    }
+    .aboutcontainer .me-pic{
+        height: 350px;
+        width: 300px; 
+    }
+    .aboutcontainer .aboutp{
+        height: 350px;
+        width: 300px; 
+    }
+    .skillcontainer{
+        height: 480px;
+        width: 750px;
+    }
+    .mid{
+        height: 400px;
+    }
+    .fa-js {
+        left: 40px;
+        font-size: 32px;
+    }
+
+    .form-container{
+        height: 480px;
+        width: 750px;
+    }
+    .Name, .Email, textarea, .Submit{
+        top:70px ;
+    }    
+}  
+
+@media only screen and (max-width: 768px) and (min-width: 501px) {
+    body{
+        background-color:#081b29;
+        
+    }
+    
+    
+    .icon-contair{
+        
+        display: flex;
+        justify-content: end;
+        width:40px;  
+    }
+    .icon-contair .fa-bars{
+        display: grid;
+        place-items: center;
+        color:#00abf0;
+        font-size: 41px;
+        padding-right: 10px;
+    }
+    .fa-close{
+        display: grid;
+        place-items: center;
+        z-index: 9;
+        color:#00abf0;
+        font-size: 41px;
+        padding-right: 10px;
+    }
+    
+    .fa-bars:hover{
+        color: #ededed;
+    }
+    .fa-close:hover{
+        color: #ededed;
+    }
+    
+    .nav-ul{
+        display: inline-block;
+        background-color: black;
+        padding-left: unset;
+        height: 350px;
+        text-align: center;
+        padding-right: unset;
+        z-index: 9;
+        width: 500px;
+        position: relative;
+        left: 34px;
+        bottom: 6px;  
+              
+    }
+    .nav-ul.hide{
+        height: 0px;
+    }
+    .nav-ul.hide .nav-li{
+        display: none;
+        
+    }
+    .nav-ul.show{
+        height: 350px;
+    }
+    .nav-li{
+        position: relative;
+        top: 36px;
+        font-size: 2rem;
+        padding: 1rem;
+        border-bottom: 2px solid #00abf0;
+        
+    }
+    .nav-li:first-child{
+        border-top: 2px solid #00abf0;
+    }
+    .nav-li:hover{
+        background-color: #112e42;
+    }
+    a{
+        color: #ededed;
+    }
+    .picture{
+        display: none;
+    }
+    .inside{
+        width: auto;
+        position: relative;
+        justify-content: center;
+        align-items: unset;
+        margin: unset;
+    }
+    
+    .name{
+        position: relative;
+        width: 540px;
+        height: 60vh;
+        left: unset;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        border: 4px double #00abf0;
+    }
+    .hi{
+        font-size: 35px;
+    }
+    .Aspiring{
+        font-size: 30px;
+        
+        width: 95%;
+    } 
+    .Accounts-Icon{
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        padding-left: 40px;
+    }
+    .fname{
+        font-size: 55px;
+        top: 10px;
+    }
+    .Accounts-Icon{
+        right: 41px;
+        width: unset;
+    }
+    .button-container button{
+        position: relative;
+        
+        
+    }
+    .about .aboutcontainer {
+        display: grid;
+        height: 85vh;
+        width: 540px;
+        
+        row-gap: 2px;
+        
+    }
+    .abouth1{
+        padding-left: 230px;
+    }
+    .me-pic{
+        height: 400px;
+        width: 350px;
+    }
+    .aboutp{
+        
+        height: 250px;
+        width: 350px;
+        box-shadow: unset;
+        background-color: unset;
+    }
+    .skills .skillcontainer{
+        display: grid;
+        background-color:unset;
+        box-shadow: unset;
+        place-items: center;
+        width: 540px;
+        row-gap: 30px;
+        top: 1px;
+    }
+    .experience{
+        height: 40vh;
+        width: 540px;
+        background-color: #112e42; 
+        left: unset; 
+        padding-top: 10px;
+        box-shadow: #526D82 0px 10px 45px -16px inset,
+                #27374D 0px 18px 26px -18px inset;
+        border-radius: 20px;        
+         
+    }
+    
+    .skillset{
+        height: 50vh;
+        width: 540px;
+        background-color: #112e42;
+        right: unset; 
+        padding-top: 10px;
+        box-shadow: #526D82 0px 10px 45px -16px inset,
+                #27374D 0px 18px 26px -18px inset;
+        border-radius: 20px;   
+    }
+    .skillscontainer{
+        display: grid;
+        row-gap: 20px;
+    }
+    .h1intern{
+        border-top-style: unset;
+        padding-bottom: 20px;
+    }
+    .h{
+        padding-left: 80px;
+        border-bottom-style: unset;
+    }
+    h5{
+        padding-left:80px ;
+        border-bottom-style: unset;
+    }
+    .skills-h2, .fa-brands, .fa-solid {
+        font-size: 20px;
+        padding-left: 40px ;
+    }
+    
+    .prog-css{
+        position: relative;
+        left:56px;
+    }
+    .h1container{
+        left: 225px;
+    }
+    .experience .h1container{
+        left: 208px;
+    }
+   
+    .prog-js{
+        position: relative;
+        
+    }
+    .fa-js{
+        font-size: 15px;
+    }
+    .mid{
+        display: none;
+    }
+    .Contact .form-container{
+        position: relative;
+        
+    }
+    .Contact{
+        height: 70vh;
+    }
+    .Name, .Email, textarea, .Submit{
+        top:70px ;
+    }    
+    .form-container{
+        border: 4px solid #00abf0;
+        width: 525px;
+    }
+    .hidden{
+        opacity: 0;
+        filter: blur(2px);
+        transform: translateX(-100%);
+        transition: all 2s;
+    }
+    .show{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+    }
+} 
+@media only screen and (max-width: 500px){
+    
+    
+    body{
+        background-color:#081b29;
+        
+    }
+    
+    .icon-contair{
+        
+        display: flex;
+        justify-content: end;
+       
+        width:40px;
+        
+    }
+    .icon-contair .fa-bars{
+        display: grid;
+        place-items: center;
+        color:#00abf0;
+        font-size: 41px;
+    }
+    .fa-close{
+        display: grid;
+        place-items: center;
+        z-index: 9;
+        color:#00abf0;
+        font-size: 41px;
+    }
+    
+    .fa-bars:hover{
+        color: #ededed;
+    }
+    .fa-close:hover{
+        color: #ededed;
+    }
+    
+    .nav-ul{
+        display: inline-block;
+        background-color: black;
+        padding-left: unset;
+        height: 350px;
+        text-align: center;
+        padding-right: unset;
+        z-index: 9;
+        width: 300px;
+        position: relative;
+        left: 28px;
+        bottom: 6px;  
+              
+    }
+    .nav-ul.hide{
+        height: 0px;
+    }
+    .nav-ul.hide .nav-li{
+        display: none;
+        
+    }
+    .nav-ul.show{
+        height: 350px;
+    }
+    .nav-li{
+        position: relative;
+        top: 36px;
+        font-size: 2rem;
+        padding: 1rem;
+        border-bottom: 2px solid #00abf0;
+        
+    }
+    .nav-li:first-child{
+        border-top: 2px solid #00abf0;
+    }
+    .nav-li:hover{
+        background-color: #112e42;
+    }
+    a{
+        color: #ededed;
+    }
+    .picture{
+        display: none;
+    }
+    
+    .inside{
+        width: auto;
+        position: relative;
+        justify-content: center;
+        align-items: unset;
+        margin: unset;
+    }
+    
+    .name{
+        
+        width: 450px;
+        height: 60vh;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        border: 2px double #00abf0;
+    }
+    
+    .hi {
+        font-size: 30px;
+    }
+    .Aspiring{
+        font-size: 25px;
+        
+        width: 92%;
+    } 
+    .Accounts-Icon{
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        padding-left: 40px;
+    }
+    .fname{
+        font-size: 40px;
+       
+    }
+    .Accounts-Icon{
+   
+        width: unset;
+    }
+    .button-container{
+        position: relative;    
+    }
+    .about .aboutcontainer {
+        display: grid;
+        height: 85vh;
+        width: 400px;
+        
+    }
+    .abouth1{
+        padding-left: 150px;
+    }
+    .me-pic{
+        height: 300px;
+        width: 250px;
+    }
+    .aboutp{
+        height: 300px;
+        width: 250px;
+        grid-row: 20px; 
+        box-shadow: unset;
+        background-color: unset;
+    }
+    .skills .skillcontainer{
+        display: grid;
+        background-color: unset;
+        box-shadow: unset;
+        place-items: center;
+        width: 400px;
+        row-gap: 30px;
+        
+    }
+    .experience{
+        height: 40vh;
+        width: 400px;
+        background-color: #112e42; 
+        left: unset; 
+        padding: 5px 0 0 30px;
+        box-shadow: #526D82 0px 10px 45px -16px inset,
+                #27374D 0px 18px 26px -18px inset;
+        border-radius: 20px;        
+         
+    }
+    .skillset{
+        height: 50vh;
+        width: 400px;
+        background-color: #112e42;
+        right: unset; 
+        padding-top: 10px;
+        box-shadow: #526D82 0px 10px 45px -16px inset,
+                #27374D 0px 18px 26px -18px inset;
+        border-radius: 20px;   
+    }
+    .skillscontainer{
+        display: grid;
+        row-gap: 20px;
+    }
+    .skills-h2, .fa-brands, .fa-solid {
+        font-size: 20px;
+    }
+    .prog-css{
+        position: relative;
+        left:54px;
+    }
+    .h1container{
+        left: 155px;
+    
+    }
+    .h1intern{
+        border-top-style: unset;
+        padding-bottom: 20px;
+    }
+    .h{
+        
+        border-bottom-style: unset;
+    }
+    h5{
+    
+        border-bottom-style: unset;
+    }
+    .experience .h1container{
+        left: 140px;
+    }
+   .fa-html5{
+    
+    font-size: 25px;
+   }
+    .prog-js{
+        position: relative;
+        left: 6px;
+    }
+    .mid{
+        display: none;
+    }
+    .Contact .form-container{
+        position: relative;
+        border: unset;
+    }
+    .Contact{
+        height: 70vh;
+    }
+    
+    .Name, .Email, textarea, .Submit{
+        top:70px ;
+    }
+    .hidden{
+        opacity: 0;
+        filter: blur(2px);
+        transform: translateX(-100%);
+        transition: all 2s;
+    }
+    .show{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+    }
+    
+}

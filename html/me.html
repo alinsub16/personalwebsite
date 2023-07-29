@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="me.css">
-    
+    <link rel="icon" href="../images/logo.png">
     <script src="https://kit.fontawesome.com/2cf48ea68b.js" crossorigin="anonymous"></script>
     
 </head>
-<body>
+<body class="body">
     <header>
         <nav>
             <a href="#home"><h4 class="Logo"><span class="spanlogo">CA</span>.dev</h4></a>
+            <i class="fa-solid fa-sun" id="toggle"></i>
             <ul class="nav-ul hide">
                 <li class="nav-li"><a class="nav-a active" href="#home">Home</a></li>
                 <li class="nav-li"><a class="nav-a" href="#about">About</a></li>
@@ -24,11 +25,11 @@
             </div>
         </nav>
     </header>
-    <section id="home" class="first">
+    <section id="home" class="home">
         <div class="container">
-            <div class="inside">
-                <div class="name">
-                    <h3 class="hi">Hi It's <span class="spanh3">me</span></h3>
+            <div class="inside-container">
+                <div class="name-container">
+                    <h3 class="hi">Hi, It's <span class="spanh3">me</span></h3>
                     <h1 class="fname">Christopher <span class="lname">Alinsub</span></h1><br>
                     <h2 class="Aspiring">Aspiring front end web <span class="spanh2">developer</span></h2>
                     <div class="accounts-container">
@@ -39,12 +40,12 @@
                             <i class="fa-light fa-arrow-up-to-line"></i>
                         </div>
                         <div class="button-container"> 
-                            <a id="download-file" href="/resumefile/Latest-Resume[1].docx" download><i class="fa-sharp fa-solid fa-download"></i>Resume</a>
+                            <a id="download-file" href="../resumefile/Latest-Resume[1].docx" download><i class="fa-sharp fa-solid fa-download"></i>Resume</a>
                         </div>
                     </div>
                 </div>
                 <div class="picture">
-                    <img class="image" src="/images/top.png" alt="error" >
+                    <img class="image" src="../images/top.png" alt="error" >
                 </div>
             </div>
             <div class="accounts">
@@ -58,8 +59,14 @@
             <div class="me-pic hide1">
                 
             </div>
-            <div class="aboutp" data-aos="fade-right">
-                <p class="aboutme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe omnis enim eligendi aliquid ipsa ipsum, dolores voluptates voluptas necessitatibus quasi, aut officiis magni.</p>
+            <div class="aboutp" >
+                <p class="aboutme">Hello, I'm Christopher Alinsub, a recent Computer Engineering graduate with a passion for web development, where I gained a knowledge in some programming languages. 
+                    As a self-motivated individual, I pursued web development through self-study and hands-on projects.
+                   My core skills lie in front-end web development, where I excel in creating visually appealing and user-friendly interfaces. 
+                   Through personal projects, I have built responsive personal websites to showcasing my ability to bring design concepts to life. Beyond my passion for web development,
+                    I enjoy staying active and exploring the great outdoors. Whether it's playing some sports, dancing, or simply going for a run, I find that these activities refresh my creativity and focus.
+                                      
+                    </p>
             </div>
         </div>
     </section>   
@@ -69,12 +76,15 @@
                 <div class="h1container">
                     <h1 class="exph1">Experience</h1>
                 </div>
-                <div class="interncontainer" data-aos="fade-down-right">
+                <div class="interncontainer" >
                     <h1 class="h1intern h">-Intern</h1>
                     <h3 class="h3company h">Company: Yumezoe Internatinal Inc.</h3>
                     <h3 class="h3position h">Position: Cutomer Service</h3>
-                    <h5><span class="gmailspan ">gmail: </span> Yumezoe.generalmanager@gmail.com</h5>            
-                </div>                  
+                    <h5><span class="gmailspan ">gmail: </span> Yumezoe.generalmanager@gmail.com</h5>
+                    <h1 class="activity h">-Activity and Project</h1>  
+                    <a class="click h" href="https://github.com/alinsub16" target="_blank">Click here</a>          
+                </div> 
+                                 
             </div>
             <div class="mid">
 
@@ -87,9 +97,9 @@
                     <h4 class="skills-h2"><i class="fa-brands fa-css3-alt fa-bounce"></i>Css3 <progress class="prog-css" value="60" max="100">60%</progress></h4>
                     <h4 class="skills-h2"><i class="fa-brands fa-html5 fa-fade"></i> Html5 <progress class="prog-html" value="70" max="100">60%</progress></h4>
                     <h4 class="skills-h2 js"><i class="fa-brands fa-js fa-beat"></i> JavaScrit<progress class="prog-js" value="40" max="100">60%</progress></h4>
-                    <h4 class="skills-h2"><i class="fa-brands fa-python fa-spin"></i> Python <progress class="prog-python" value="60" max="100">60%</progress></h4>
+                    <h4 class="skills-h2"><i class="fa-brands fa-python fa-bounce"></i> Python <progress class="prog-python" value="60" max="100">60%</progress></h4>
                     <h4 class="skills-h2"><i class="fa-brands fa-java fa-beat-fade"></i></i> Java <progress class="prog-java" value="40" max="100">60%</progress></h4>
-                    <h4 class="skills-h2"><i class="fa-solid fa-database fa-shake"></i> Mysql <progress class="prog-sql" value="40" max="100">60%</progress></h4>
+                    <h4 class="skills-h2"><i class="fa-solid fa-database fa-shake"></i> Mysql <progress class="prog-sql" value="30" max="100">60%</progress></h4>
                 </div>
             </div>
             
@@ -99,11 +109,11 @@
         <div class="form-container">
             <form onsubmit="Submit(); reset(); return false;">
                 <h2 class="h2-Message">Message me</h2>
-                <input id="fname" class="Name" name="Name" placeholder="Enter your name" type="text">
+                <input id="fname" class="Name" name="Name" placeholder="Enter your name" type="text" required>
                 <br>
-                <input id="Gmail" class="Email" name="Email" placeholder="Enter Email Address" type="text">
+                <input id="Gmail" class="Email" name="Email" placeholder="Enter Email Address" type="text" required>
                 <br>
-                <textarea id="MAIL" name="" placeholder="Enter something" rows="4"></textarea>
+                <textarea id="MAIL" name="Message" placeholder="Enter something" rows="4"></textarea required >
                 <br>
                 <button class="Submit" type="submit">Send</button>
             </form>

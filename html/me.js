@@ -1,4 +1,23 @@
+//background style
+ const Toggle = document.getElementById('toggle')
+const body = document.querySelector('.body')
+Toggle.addEventListener('click', () => {
+ if(Toggle.classList.contains('fa-sun')){
+    body.classList.toggle('white-mode')
+    body.classList.remove('dark-mode')
+    Toggle.classList.remove('fa-sun')
+    Toggle.classList.add('fa-moon')
+    body.style.transition = '2s'
+  }
+  else{
+     body.classList.toggle('dark-mode')
+     body.classList.remove('white-mode')
+     Toggle.classList.remove('fa-moon')
+     Toggle.classList.add('fa-sun')
 
+  }
+
+});
 //responsive nav bar
 const icontrigger = document.querySelector('#iconTriger')
 const icon = document.querySelector('#icon ')
@@ -49,7 +68,7 @@ function Submit(){
                 "<br> Gmail:" + Gmail +
                 "<br> Message:" + MAIL
     }).then(
-      message => alert(message)
+      message => alert("Sent Succesfully")
     );
 
 }

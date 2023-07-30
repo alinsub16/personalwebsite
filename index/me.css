@@ -987,7 +987,9 @@ footer div h2{
         position: relative; 
     }
     
-    
+    .about{
+        height: 900px;
+    }
     .about .aboutcontainer {
         display: grid;
         place-content: center;
@@ -1021,6 +1023,9 @@ footer div h2{
     }
     .aboutme{
         font-size: 11px;
+    }
+    .skills{
+        height: 900px;
     }
     .skills .skillcontainer{
         display: grid;
@@ -1105,7 +1110,7 @@ footer div h2{
         box-shadow: 0 8px 32px 0 rgba(0,0,0, 0.37);
     }
     .Contact{
-        height: 70vh;
+        height: 650px;
     }
     .Name, .Email, textarea, .Submit{
         top:70px ;
@@ -1403,8 +1408,7 @@ footer div h2{
         box-shadow: unset;
     }
     .Contact{
-        min-height: 400px;
-        background-color: #F94A29;
+        height: 650px;
     }
     
     .Name, .Email, textarea, .Submit{

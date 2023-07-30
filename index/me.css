@@ -1319,6 +1319,7 @@ footer div h2{
         width: 380px;
         height:90%;
         row-gap: 30px;
+        overflow: hidden;
         top: 0;
         background:linear-gradient(135deg,rgba(255, 255,255, 0.1),rgba(255,255,255,0));
         border: 1px solid rgba(255, 255,255, 0.18);

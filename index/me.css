@@ -1268,7 +1268,7 @@ footer div h2{
         position: relative;    
     }
     .about{
-        
+        height: 800px;
         display: grid;
         place-content: center;
     }
@@ -1308,8 +1308,8 @@ footer div h2{
     }
     .skills{
         
-        height: 100vh;
-        overflow: scroll;
+        height: 800px;
+        
     }
     .skills .skillcontainer{
         display: grid;   
@@ -1317,9 +1317,8 @@ footer div h2{
         box-shadow: unset;
         place-items: center;
         width: 380px;
-        height:90%;
+        height:750px;
         row-gap: 30px;
-        overflow: hidden;
         top: 0;
         background:linear-gradient(135deg,rgba(255, 255,255, 0.1),rgba(255,255,255,0));
         border: 1px solid rgba(255, 255,255, 0.18);
@@ -1404,13 +1403,15 @@ footer div h2{
         box-shadow: unset;
     }
     .Contact{
-        min-height: 60vh;
+        min-height: 400px;
+        background-color: #F94A29;
     }
     
     .Name, .Email, textarea, .Submit{
         top:70px ;
     }
     form{
+        height: 400px;
         background:linear-gradient(135deg,rgba(255, 255,255, 0.1),rgba(255,255,255,0));
         border: 1px solid rgba(255, 255,255, 0.18);
         box-shadow: 0 8px 32px 0 rgba(0,0,0, 0.37);
